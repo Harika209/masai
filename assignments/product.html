@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Product Card</title>
+
+    <style>
+        body {
+            background: #f1f3f6;
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+            font-family: Arial;
+        }
+
+        .card {
+            width: 350px;
+            background: white;
+            border-radius: 12px;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        .card img.product {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .assured-logo {
+            width: 90px;
+            margin-top: 10px;
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0 5px;
+        }
+
+        .sub-title {
+            font-size: 14px;
+            color: grey;
+            margin-bottom: 10px;
+        }
+
+        .rating-box {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        .rating {
+            background: #4caf50;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 5px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .price-box {
+            margin: 10px 0;
+        }
+
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: grey;
+            margin-left: 10px;
+        }
+
+        .offer {
+            color: green;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .bank-offer {
+            color: #0a8f08;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="card">
+
+    <img class="product" src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/w/x/h/-original-imahfa7xspmxemvj.jpeg" alt="Watch">
+
+    <img class="assured-logo" src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png" alt="Assured">
+
+    <div class="title">SAMSUNG Galaxy Watch6 LTE</div>
+    <div class="sub-title">Graphite Strap, 44mm</div>
+
+    <div class="rating-box">
+        <div class="rating">4.3 ★</div>
+        <div>(973)</div>
+    </div>
+
+    <div class="price-box">
+        <span class="price">₹18,999</span>
+        <span class="old-price">₹41,999</span>
+        <span class="offer">54% off</span>
+    </div>
+
+    <div class="bank-offer">Bank Offer</div>
+
+</div>
+
+</body>
+</html>
